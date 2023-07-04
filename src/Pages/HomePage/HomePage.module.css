@@ -1,0 +1,72 @@
+.wrapper{
+    margin-top: 5rem;
+    height: 87.6vh;
+    border: 2px solid gray;
+    background: url('https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    /* border: 2px solid green; */
+    margin-top: 10rem;
+    margin-left: 5rem;
+    width: 38rem;
+    padding: 1rem;
+    color: #13274F;
+}
+
+.text button{
+    /* border: 2px solid green; */
+    padding: 0.5rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 2px gray;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: #5072A7;
+    color: white;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.text button:hover {
+  background-color: #004792;
+}
+
+.text button:focus {
+   outline: none;
+   box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 990px) {
+    .text {
+      margin-top: 8rem;
+      margin-left: 3rem;
+      width: 30rem;
+    }
+  }
+  
+  @media only screen and (max-width: 989px) and (min-width: 768px) {
+    .text {
+      margin-top: 6rem;
+      margin-left: 2rem;
+      width: 26rem;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) and (min-width: 500px){
+    .text {
+        margin-top: 4rem;
+        margin-left: 1rem;
+        width: 22rem;
+      }
+  }
+
+  @media only screen and (max-width: 499px) {
+    .text {
+      margin-top: 3rem;
+      margin-left: 0.5rem;
+      width: 18rem;
+    }
+  }

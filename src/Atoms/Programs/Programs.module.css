@@ -1,0 +1,40 @@
+.wrapper{
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+}
+
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.description{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.carouselItem {
+    position: relative;
+    /* border: 2px solid red; */
+}
+  
+  .programImage {
+    width: 100%;
+    /* border: 2px solid green; */
+  }
+  
+  .programName {
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+  }
+
+  
+  

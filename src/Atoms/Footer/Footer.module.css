@@ -1,0 +1,46 @@
+.wrapper{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbMGZf3-qwHywUyY-f3otYPo1k8lqaik-EcdoRMuTEaoVvKgkldfFHLb74DzK9PMZOPg&usqp=CAU');
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.socialIcons{
+    margin-top: 0.5rem;
+}
+
+.icon{
+    color: white;
+    font-size: 1.4rem;
+    margin-right: 2rem;
+}
+
+.box1{
+    width: 25rem;
+}
+
+.box2{
+    margin-left: -3rem;
+}
+
+.box4{
+    width: 25rem;
+}
+
+.box4 h4{
+    margin-left: 1.3rem;
+}
+
+h5{
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbMGZf3-qwHywUyY-f3otYPo1k8lqaik-EcdoRMuTEaoVvKgkldfFHLb74DzK9PMZOPg&usqp=CAU');
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 400;
+}

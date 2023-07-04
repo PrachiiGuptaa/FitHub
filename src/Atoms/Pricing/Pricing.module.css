@@ -1,0 +1,90 @@
+.wrapper {
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    padding: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+  
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+
+.description{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.pass {
+    background-color: #f9f9f9;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.5rem gray;
+    flex: 0 0 275px;
+    /* margin-bottom: 1rem; */
+}
+
+.pass:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+}
+  
+.pass h3 {
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+  
+.pass p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+    
+.pass ul li {
+    /* border: 2px solid black; */
+    list-style-type: disc;
+    margin-bottom: 0.3rem;
+}
+
+.pass button {
+    margin-top: 2rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+
+.pass:hover button{
+    background-color: white;
+    color: black;
+}
+  
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.content h4 {
+    font-size: 18px;
+}
+  

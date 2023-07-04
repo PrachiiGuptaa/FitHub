@@ -1,0 +1,88 @@
+.wrapper{
+    /* border: 2px solid green; */
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+.container1{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.video1,
+.video2{
+    border: 4px solid #6082B6;
+}
+
+.text1,
+.text2{
+    /* border: 2px solid blue; */
+    height: 19rem;
+    width: 32rem;
+    padding: 2rem;
+}
+
+.text1 button{
+    padding: 0.6rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 2px gray;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: #5072A7;
+    color: white;
+    margin-top: 1rem;
+}
+
+.container2{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 865px) and (min-width: 450px) {
+    .container1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+
+    }
+    .video1,
+    .video2{
+        height: 200%;
+        width: 100%;
+    }
+    .text1,
+    .text2{
+        width: 100%;
+    }
+    .container2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 449px) {
+    .container1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .video1,
+    .video2{
+        height: 200%;
+        width: 100%;
+    }
+    .text1,
+    .text2{
+        width: 100%;
+    }
+    .container2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+}

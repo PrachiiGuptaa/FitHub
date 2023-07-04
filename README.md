@@ -25,3 +25,4 @@ To install and run the application locally, follow these steps:
 4. Open http://localhost:3000/ in your browser to view the application
 
 ## Deployment Link
+fit-hub-ivory.vercel.app
